@@ -2,8 +2,8 @@
 Grupo 2 - Bogota sin basuras
 
 # Intregrantes:
-* Solenyi Constanza Amaya Vargas
-* Pedro Andrés Rodríguez León
+* Solenyi Constanza Amaya Vargas  - http://github.com/samayava
+* Pedro Andrés Rodríguez León     - http://github.com/pedro00627
 
 Bogota sin basuras es un proyecto educativo realizado con el ánimo de aplicar los conocimientos aprendidos en el curso de desarrollo full stack y tecnoogías híbridas, impartido por Fedesoft y Colciencias.
 
