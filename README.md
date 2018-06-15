@@ -1,6 +1,16 @@
-# INPAHU-001-G2-BOGOTA_SIN_BASURAS
+﻿# INPAHU-001-G2-BOGOTA_SIN_BASURAS
 Grupo 2 - Bogota sin basuras
 
 Bogota sin basuras es un proyecto educativo realizado con el ánimo de aplicar los conocimientos aprendidos en el curso de desarrollo full stack y tecnoogías híbridas, impartido por Fedesoft y Colciencias.
 
 Esta aplicación pretende Apoyar a las personas de la localidad de Chapinero en el en tratamiento y disposición de basuras (desechos orgánicos, inorgánicos y peligrosos), generando cultura ambiental e informativa por medio de una aplicación móvil.
+
+Descripción
+
+Actualmente la localidad de Chapinero es una de las localidades más afectadas por la contaminación ambiental, sí nos dirigimos a la carrera 13 entre las calles 45 y 63, la carrera 15 entre las calles 72 y 85, la zona Rosa y la zona T, el índice de contaminación ambiental por desechos es bastante evidente. El desconocimiento de la ciudadanía sobre el tratamiento de los residuos y la falta de disposición de elementos de almacenaje de basuras se ha convertido en una problemática no solo para aquellos que hacen parte de la localidad sino para toda la ciudad de Bogotá D.C en general.
+
+A la fecha la empresa Distrito capital es la empresa encargada por la UESP para prestar el servicio de recolección general de desechos (Orgánicos (hojas, ramas, cascaras, alimentos del hogar) e inorgánicos (plásticos, telas sintéticas, papel o vidrio)) y Ciudad Limpia es la empresa encargada de la recolección de residuos hospitalarios en el sector como el Hospital Militar, la clínica David Restrepo y el hospital San Ignacio convirtiéndose en uno de los más grandes generadores de desechos. Actualmente se evidencia la falta de elementos de disposición de desechos incluyendo escombros de estos últimos en algunas ocasiones las personas no tienen conocimiento de que hacer con estos, lo que lo cual promueve que indigentes y recicladores recorran el sector rompiendo las bolsas para separar lo que les sirve y arrojar los demás residuos al piso. Al arrojar los residuos al piso se está contribuyendo a la contaminación de las rutas de agua como las alcantarillas debido a la deficiencia o ausencia de estas en el sector y se está generando presencia de mosquitos bacterias y demás enfermedades que afectan a la ciudadanía en general.
+
+Las afectaciones en la salud que se genera por las basuras también es un punto importante que se presenta en el momento de contaminación, en torno al aire que se respira, y la cercanía con algunos establecimientos de comidas a estos desechos, reflejándose molestias como erupciones en la piel, mal olor, proliferación de fauna nociva y en invierno las infecciones respiratorias se complican debido a la contaminación del aire ya mencionado.
+
+Pero no solo se trata de mirar al exterior, si no al interior de la vivienda, como cada hogar maneja las basuras ya que todo inicia desde este punto; por tal motivo se debe realizar el control adecuado de residuos y desechos: no dejar desperdicios expuestos que puedan atraer insectos o roedores. Esto incluye la presentación de los residuos orgánicos en bolsa, torciendo la abertura y amarrándola para eliminar el aire.
