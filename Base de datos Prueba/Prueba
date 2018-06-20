@@ -1,5 +1,4 @@
 drop table Usuarios;
-
 create table Usuarios(
 	NumeroIdentificacion int not null primary key,
 	Nombres char(30) null,
