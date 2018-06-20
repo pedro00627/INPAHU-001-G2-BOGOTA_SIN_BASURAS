@@ -1,0 +1,32 @@
+drop table Usuarios;
+
+create table Usuarios(
+	NumeroIdentificacion int not null primary key,
+	Nombres char(30) null,
+	Apellidos char(30) null,
+	Fecha_Nac timestamp null,
+	Id_empresa int null
+);
+
+add constraint Usuarios_Empleados foreign key (Id_empresa) references Empresa(Id_empresa);
+
+create table Empresa(
+	Id_empresa int not null primary key,
+	Nom_empresa char(30) null,
+	Direccion_empresa char(30) null,
+	Telefono int null
+);
+
+insert into Empresa (Id_empresa, Nom_empresa, Direccion_empresa, Telefono) values (860064034-2, 'Caracolitos', 'Av.Caracolitos', 8767452);
+insert into Empresa (Id_empresa, Nom_empresa, Direccion_empresa, Telefono) values (860458986-7, 'Panadería Pepito', 'Av.Pepito', 8765421);
+
+
+insert into Usuarios (NumeroIdentificacion, Nombres, Apellidos) values (39856248, 'Solenyi Constanza', 'Amaya Vargas');
+insert into Usuarios (NumeroIdentificacion, Nombres, Apellidos) values (1065248957, 'Richard Antonio', 'Porras Camelo');
+insert into Usuarios (NumeroIdentificacion, Nombres, Apellidos) values (11256478, 'Helena', 'De la vega');
+insert into Usuarios (NumeroIdentificacion, Nombres, Apellidos) values (1069856344, 'Juan Armando', 'Gaitan');
+insert into Usuarios (NumeroIdentificacion, Nombres, Apellidos) values (396524524, 'Sandra Camila', 'Camelo');
+insert into Usuarios (NumeroIdentificacion, Nombres, Apellidos) values (395894567, 'Sandra Camila', 'Camelo');
+
+select * from Usuarios;
+select * from Empresa where Id_empresa = 860064034-2;
