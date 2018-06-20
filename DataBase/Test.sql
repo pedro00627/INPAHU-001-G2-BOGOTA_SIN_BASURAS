@@ -6,6 +6,7 @@ CREATE DATABASE "Test"
   LC_CTYPE = 'Spanish_Spain.1252'
   TABLESPACE = pg_default
   CONNECTION LIMIT = -1;
+
   create table Localidad
     (
       Id_Localidad int not null primary key,
@@ -2084,3 +2085,32 @@ CREATE DATABASE "Test"
     (2035,'VISTA HERMOSA SECTOR SAN CARLOS Y EL TRIANGULO',19),
     (2036,'ZONA 1',20),
     (2037,'ZONA 2',20);
+=======
+create Database Test
+  with owner = postgres
+  encoding = "utf8"
+  tablespace = pg_default
+  lc-collate= 'Spanish_Spain.1252'
+  lc-ctype= 'Spanish_Spain.1252'
+  connection limit = -1;
+  create table Usuario
+    (
+      Id_Usuario int not null primary on
+    )
+      Correo_Usuario varchar (50),
+      Telefono_Usuario int4 (10),
+      Direccion_Usuario varchar (100),
+      Id_Barrio int (6)
+    );
+  create table Localidad
+    (
+      Id_Localidad int not null primary key,
+      Nombre_Localidad varchar (30) not null
+    );
+  create table Barrio
+    (
+      Id_Barrio int not null primary key,
+      Nombre_Barrio varchar (30) not null,
+      Id_Localidad int not null primary key
+    );
+>>>>>>> before discard
